@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FoodKart</string>
+    <string name="log_in_button">Log In</string>
+    <string name="create_account">Create New Account</string>
+    <string name="continue_without_login">Continue With Out Logging In</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="login">Login</string>
+    <string name="categories">CATEGORIES</string>
+    <string name="meat">Meat</string>
+    <string name="dairy">Dairy</string>
+    <string name="produce">Produce</string>
+    <string name="item">Items</string>
+</resources>

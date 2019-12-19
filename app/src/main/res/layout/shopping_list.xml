@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/BroulimsPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="90dp"
+        android:text="BroulimPrice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/AlbertsonsPrice"
+        app:layout_constraintStart_toEndOf="@+id/WalmartPrice"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingList" />
+
+    <TextView
+        android:id="@+id/broulimsPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        android:text="$38.49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BroulimsPrice"
+        tools:text="$38.49" />
+
+    <TextView
+        android:id="@+id/AlbertsonsPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="90dp"
+        android:text="AlbertsonsPrice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingList" />
+
+    <TextView
+        android:id="@+id/albertsonsPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="47dp"
+        android:text="$37.67"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/broulimsPrice"
+        app:layout_constraintTop_toBottomOf="@+id/AlbertsonsPrice"
+        tools:text="$37.67" />
+
+    <TextView
+        android:id="@+id/shoppingList"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="ShoppingList"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/WalmartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginBottom="90dp"
+        android:text="WalmartPrice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingList" />
+
+    <TextView
+        android:id="@+id/walmartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="96dp"
+        android:text="$34.61"
+        app:layout_constraintEnd_toStartOf="@+id/broulimsPrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WalmartPrice"
+        tools:text="$34.61" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="395dp"
+        android:layout_height="457dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/AlbertsonsPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingList" />
+
+</android.support.constraint.ConstraintLayout>
